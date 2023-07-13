@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            display: flex;
+            background-color: #FFF3E2;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 100vh;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .row-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: space-around;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .column {
+            border: 1px solid black;
+            margin: 10px;
+            background-color: whitesmoke;
+            box-shadow: 2px 2px 10px black;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #two {
+            height: 40%;
+        }
+
+        #three {
+            height: 40%;
+        }
+
+        #four {
+            height: 40%;
+        }
+
+        #five {
+            height: 40%;
+        }
+
+        #six {
+            height: 40%;
+        }
+
+        #column-1 {
+            width: 50%;
+        }
+
+        #column-2 {
+            width: 50%;
+            font-size: 90%;
+        }
+
+        #column-3 {
+            width: 100%;
+            font-size: 90%;
+        }
+
+        #column-4 {
+            width: 100%;
+            font-size: 100%;
+        }
+
+        #column-5 {
+            width: 100%;
+            font-size: 90%;
+        }
+
+        #column-6 {
+            width: 100%;
+            font-size: 90%;
+        }
+
+        a {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 10%;
+            left: 25%;
+            width: 50%;
+            height: 10%;
+            color: yellow;
+            background-color: blueviolet;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        a:hover {
+            width: 52%;
+            height: 12%;
+            box-shadow: 1px 1px 10px purple;
+        }
+
+        #b1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            top: 30%;
+            left: 25%;
+            width: 50%;
+            height: 10%;
+            color: yellow;
+            background-color: blueviolet;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+
+
+        #b3 {
+            position: relative;
+            top: 20%;
+        }
+
+        #b4 {
+            position: relative;
+            top: 22%;
+        }
+
+        #b5 {
+            position: relative;
+            top: 17%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-1">
+            <div class="column" id="column-1"><img src="PHOTOS/Attack_on_Titan_Season_1.webp" alt=""></div>
+            <div class="column" id="column-2"><img src="PHOTOS/attack-on-titan-button-fin-1642737241010.jpg" alt=""
+                    id="two">Attack on Titan (Japanese: 進撃の巨人,
+                Hepburn: Shingeki no Kyojin, lit.'The Attacking Giant')
+                is a Japanese dark fantasy
+                anime television series, adapted from the manga series of the same name by Hajime Isayama, that
+                premiered on April 7,
+                2013. It has aired on NHK General TV in Japan, and Aniplus Asia in various Asia-Pacific countries.In the
+                United
+                States and Canada, the series has been streamed on Crunchyroll, Funimation, Netflix, Amazon Prime Video,
+                and Hulu.
+                Attack on Titan has also aired on Adult Swim's Toonami programming block in the U.S <br>
+                <a href="https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)" id="b1"><span></span>More</span></a>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="column" id="column-3"><img src="PHOTOS/attack-on-titan-season-1-review.jpg" alt="" id="three">In
+                the first season, the protagonist, Eren Yeager, witnesses his mother dying after being eaten by
+                man-eating giant
+                humanoid creatures called Titans. This becomes Eren's motivation to develop his combat skills in order
+                to fight the
+                Titans. Later on, Eren is eaten by a Titan himself but discovers that he can transform into a Titan,
+                control it, and
+                fight like he would as a human. Eren learns how to use his newfound powers to combat the Titans and
+                continues his
+                training as more titans continue to flood into his homeland.
+                <br>
+                <a href="aot.html" id="b2"> More</a>
+            </div>
+            <div class="column" id="column-4"><img src="PHOTOS/season-2.jpg" alt="" id="four">In its second season, the
+                main cast of characters, who have joined the Survey Corps, are thrown into action after Titans
+                breach the walls without any apparent trace of how they entered. Along the way, they discover the true
+                nature of the
+                Titans
+                <br>
+                <a href="aots2.html" id="b3"> More</a>
+            </div>
+            <div class="column" id="column-5"><img src="PHOTOS/D1KESmPX4AA5C-8-720x1021.png" alt="" id="five">In its
+                two-part third season, the Survey Corps are hunted as Eren and another member are wanted. Later, they
+                defend
+                their hometown in a series of battles against the strongest Titans. Afterwards, reeling from the
+                devastating battles,
+                the Survey Corps members uncover the truth about their world and humanity in general.
+                <a href="aot.html" id="b4"> More</a>
+            </div>
+            <div class="column" id="column-6"><img src="PHOTOS/s4.jpeg" alt="" id="six">Its fourth season, split into
+                three parts and subtitled The Final Season, takes place four years after Eren and his
+                compatriots learn the entire truth about their situation. A new cast of characters, part of the enemy's
+                elite Warrior
+                Unit, battles against the Survey Corps as each side seeks to protect their home and ideals. At the same
+                time, Eren
+                concocts a devastating plan to free his homeland of all their enemies.
+                <br>
+                <a href="aot.html" id="b5"> More</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
